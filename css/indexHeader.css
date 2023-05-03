@@ -1,0 +1,26 @@
+.logo{
+    display: flex;
+    max-height: 350px;
+    max-width: 350px;
+}
+.direcionamento__site{
+    display: flex;
+    color: #4400ff;
+    font-weight: bold;
+}
+
+.menu-container{
+    display: flex;
+    gap: 64px;
+    font-size: 2rem;
+    padding-right: 200px;
+}
+
+.menu-container li{
+    border-bottom: 4px solid transparent;
+    transition: border-color 0.3s;
+}
+
+.menu-container li:hover{
+    border-bottom: 4px solid #4400ff;
+}
