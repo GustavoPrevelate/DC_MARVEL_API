@@ -9,7 +9,7 @@ html {
   }
   
   header {
-    background-color: #000000;
+    background-color: var(--red-color);
     padding: 0px 96px;
     display: flex;
     justify-content: space-between;
@@ -19,13 +19,13 @@ html {
   main {
     display: grid;
     justify-content: center;
-    background-color: #4400ff;
+    background-color: var(--black-color);
   }
   
   footer {
     display: flex;
     justify-content: space-between;
-    background-color: #000000;
+    background-color: var(--red-color);
     color: var(--white-color);
     padding: 0px 96px;
     min-height: 15vh;

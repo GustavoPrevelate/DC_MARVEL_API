@@ -1,26 +1,26 @@
-.logo__index{
+.logo__herois{
     display: flex;
     max-height: 350px;
     max-width: 350px;
 }
-.direcionamento__site__index{
+.direcionamento__site__herois{
     display: flex;
     color: var(--white-color);
     font-weight: bold;
 }
 
-.menu-container__index{
+.menu-container__herois{
     display: flex;
     gap: 64px;
     font-size: 2rem;
     padding-right: 200px;
 }
 
-.menu-container__index li{
+.menu-container__herois li{
     border-bottom: 4px solid transparent;
     transition: border-color 0.3s;
 }
 
-.menu-container__index li:hover{
-    border-bottom: 4px solid #4400ff;
+.menu-container__herois li:hover{
+    border-bottom: 4px solid var(--red-color);
 }

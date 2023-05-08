@@ -1,13 +1,13 @@
 /* Footer do index.html */
 
-.container_meios_contato__index {
+.container_meios_contato__herois{
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 4px;
   }
   
-  .informacoes__index {
+  .informacoes__herois {
     display: flex;
     gap: 24px;
     user-select: none;
@@ -17,7 +17,7 @@
     
   }
   
-  .texto_copyright_site__index{
+  .texto_copyright_site__herois{
     display: flex;
     align-items: center;
     font-size: 2rem;
@@ -26,14 +26,14 @@
     user-select: none;
   }
   
-  .container_midias_sociais__index {
+  .container_midias_sociais__herois {
     display: flex;
     gap: 20px;
     align-items: center;
     color: var(--white-color);
   }
   
-  .midia_social__index {
+  .midia_social__herois {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,12 +44,12 @@
     border-radius: 50%;
   }
   
-  .midia_social__index:hover {
+  .midia_social__herois:hover {
     background-color: var(--white-color);
     color: var(--white-color);
   }
   
-  .midia_social__index > i {
+  .midia_social__herois > i {
     font-size: 1.375rem;
     color: var(--white-color);
     line-height: 0;
