@@ -3,14 +3,14 @@ html {
   }
   
   body {
-    height: 288vh;
+    height: 100vh;
     display: grid;
     grid-template-rows: 100px 1fr;
   }
   
   header {
     background-color: var(--red-color);
-    padding: 0px 96px;
+    padding: 0px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,7 +19,7 @@ html {
   main {
     display: grid;
     justify-content: center;
-    background-color: var(--black-color);
+    
   }
   
   footer {
